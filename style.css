@@ -1,6 +1,12 @@
-@media(max-width: 768px) {
+@media(min-width: 321 px) {
     .selector {
-        width: 750px;
+        width: 300 px
+    }
+}
+
+@media(max-width: 400 px) {
+    .selector {
+        width: 390 px;
     }
 }
 
@@ -12,7 +18,7 @@
 }
 
 section{
-    padding: 300px;
+    padding: 200px;
     height: 680px;
 }
 
@@ -52,6 +58,10 @@ ul, li, a:hover{
     background-color: transparent;
 }
 
+.greeting{
+    padding-top: 150px;
+}
+
 h1{
     font-size: 40px;
     text-align: center;
@@ -69,14 +79,13 @@ h1{
     
 /* section about */
 #page1{
-    background-color: rgb(90, 180, 95) ;
+    background-color: rgb(52, 78, 52) ;
 }
 
 h4{
     text-align: center;
     color: black;
     cursor: unset;
-    animation: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .poin{
@@ -85,7 +94,7 @@ h4{
 
 /* section portofolio */
 #page2{
-    background-color: rgb(108, 156, 211);
+    background-color: rgb(55, 87, 56);
 }
 
 img{
@@ -95,7 +104,7 @@ img{
 
 /* section blog */
 #page3{
-    background: rgb(55, 146, 75);
+    background: rgb(50, 78, 52);
 }
 
 p{
@@ -111,7 +120,7 @@ p{
 
 /* section team */
 #page4{
-    background: rgb(71, 71, 230);
+    background: rgb(55, 87, 54);
 }
 
 .column{
